@@ -15,7 +15,7 @@ Clone o repositório para o seu computador:
 `gh repo clone Jullns/Chronomedi-website`
 
 Vá para a pasta do projeto: 
-* cd site-noticias-norteBrasil
+* cd Chronomedi-website
 
 Abra o arquivo principal:
 * Abra a pasta do projeto no seu editor de código (como o VS Code) e execute a extensão Live Server, ou abra o arquivo index.html direto no seu navegador favorito.
