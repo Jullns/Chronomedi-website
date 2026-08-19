@@ -26,27 +26,34 @@
 
     <!--Header mobile-->
     <header class="header-mobile">
-        <a href="index.html"><img src="images/Chronomedi.png" class="logo" alt="Nome da empresa"></a>
+
+        <a href="index.html">
+            <img src="images/Chronomedi.png" class="logo" alt="Nome da empresa">
+        </a>
+
         <button class="menu-btn" onclick="menu()">
-            <span class="material-symbols-outlined"></span>
+            <span class="material-symbols-outlined">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
+            </span>
         </button>
     </header>
 
-    <div class="mobile-menu">
+    <div class="mobile-menu" id="mobileMenu">
         <button class="menu-fechar" onclick="menuFechado()">
             <span class="material-symbols-outlined">
                 close
             </span>
         </button>
-
         <a href="#presentation" onclick="menuFechado()">Apresentação</a>
         <a href="#proposal" onclick="menuFechado()">Proposta</a>
         <a href="#mission" onclick="menuFechado()">Missão</a>
         <a href="#solution" onclick="menuFechado()">Solução</a>
         <a href="#about" onclick="menuFechado()">Sobre nós</a>
         <a href="#" onclick="alert('Ainda não está disponível!')">Política de Segurança</a>
-    
-        <button class="btn-header" onclick="alert('Ainda não está disponível!')">Baixe já</button>
+
+        <button class="btn-header" onclick="alert('Ainda não está disponível!')">
+            Baixe já
+        </button>
     </div>
 
     <!--Hero-->
@@ -61,7 +68,12 @@
             </div>
                 
             <div class="subtitle">
-                <p>Sua medicação, no horário certo.</p>
+                <p>
+                    Sua medicação, no horário certo.
+                    <br>
+                    <br>
+                    Baixe já!
+                </p>
             </div>
         </div>
     </section>
